@@ -2,13 +2,41 @@ body{
     background-color: #5c6969;
 }
 
+.Dark{
+    background-color: #000;
+}
+
+button{
+    width: 30px;
+    height: 30px;
+    background-color: #000000;
+    position: relative;
+    bottom: 10px;
+}
+
+.bclear{
+    background-color: #5c6969;
+}
+
+.hDark{
+    color: #dbd7e4;
+}
+
 p{
     font-size: 16px;
 }
 
-.bg_right{
-    background-color: #7fc1e0;
+.pDark{
+    font-size: 16px;
+    color: #dbd7e4;
+}
+
+div{    background-color: #7fc1e0;
     border-radius: 8px;
+}
+
+.bgDark{
+    background-color: #11034e;
 }
 
 img {
