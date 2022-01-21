@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Rescue</title>
+</head>
+<body>
+    <section id="container"> <!--section container  -->
+    
+        
+        <div id="backgroundGame">
+            <button id="btnPortugues" class="iconBr" type="button"></button>
+            <button id="btnEnglish" class="iconEn" type="button"></button>
+            <button id="btnEspanish" class="iconEs" type="button"></button>
+            <div id="initial">
+                <h1 id="title"></h1>
+                <p id="command"></p>
+                <button id="init"></button>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Game audio  -->
+    <audio src="assets/sons/som.mp3" preload="auto" id="shootSounds"></audio>       
+    <audio src="assets/sons/explosao.mp3" preload="auto" id="explosionSounds"></audio>
+    <audio src="assets/sons/musica_fundo.mp3" preload="auto" id="music"></audio>
+    <audio src="assets/sons/gameover.mp3" preload="auto" id="gameOverSounds"></audio>
+    <audio src="assets/sons/perdido.mp3" preload="auto" id="lostSounds"></audio>
+    <audio src="assets/sons/resgate.mp3" preload="auto" id="rescueSounds"></audio>
+   
+    <script src="assets/js/scriptsRename.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-collision.min.js"></script>
+</body>
+</html>

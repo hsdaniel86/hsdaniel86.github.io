@@ -1,0 +1,81 @@
+body{
+	background-color: #11F4C0;
+}
+
+.navbar-brand{
+	width: 100px;
+	height: 100px;
+}
+
+.navbar{
+	background-color: #11F4C0;
+}
+
+.nav-item{
+	border: 1px dotted black;
+}
+
+.btn{
+	background-color: #B5EFE2;
+}
+
+.quem-somos{
+	background-color: #9CA2A1;
+	color: whitesmoke;
+}
+
+.margem{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.margin{
+	padding-top: 25px;
+}
+
+.layoutimg{
+	padding-left: 200px;
+	padding-bottom: 10px;
+}
+
+.just{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.qimg{
+    width: 400px; 
+    height: 280px; 
+}
+
+.imgcarrossel{
+ 	width: 500px;
+ 	height: 500px;
+}
+
+.title{
+	text-decoration: underline;
+	background-color: black;
+	padding-bottom: 5px;
+}
+
+.font{
+	font-family: Verdana;
+	font-size: 24px;
+	font-style: italic;
+}
+
+.image{
+	border-radius: 20px;
+	border: 1px inset #9CA2A1;
+}
+
+.tabacaria{
+	background-color: #757777;
+	color: whitesmoke;
+}
+
+.bebidas{
+	background-color: #757788;
+	color: whitesmoke;
+}
