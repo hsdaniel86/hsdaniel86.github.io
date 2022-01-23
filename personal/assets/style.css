@@ -1,0 +1,30 @@
+body{
+    background-color: #0a6102;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+div{
+    background-color: #06f53a;
+}
+
+button{
+    background-color: black;
+    color: blanchedalmond;
+}
+
+form{
+    color: black;
+}
+input{
+    background-color: black;
+    color: blanchedalmond;
+}
+
+:checked + label{
+    text-decoration: line-through;
+    color: #050101;
+    background-color: #0a6102;
+}
